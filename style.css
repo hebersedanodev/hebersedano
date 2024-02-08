@@ -1,0 +1,92 @@
+#titulo {
+    color: rgba(252, 252, 252, 0.992);
+    font-size: 40px;
+    font-family: "Segoe UI";
+    text-align: center;
+}
+
+#logoig {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+#logoface {
+    width: 45px;
+    height: 30px;
+    margin-right: 9px;
+}
+
+#logolindk {
+    width: 40px;
+    height: 30px;
+    margin-right: 25px;
+}
+
+#logogmail {
+    width: 43px;
+    margin-right: 8px;
+
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(14, 138, 195);
+    font-size: 20px;
+}
+
+#presentacion {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.814);
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#autor-heber {
+    font-size: 19px;
+    color: rgb(231, 231, 231);
+    font-family: 'Libre Baskerville', serif;
+}
+
+#mensaje {
+    font-size: 30px;
+    margin-top: 280px;
+    color: rgb(157, 235, 195);
+    text-align: center;
+    font-family: 'Big Shoulders Inline Text', sans-serif;
+}
+
+#imagen-de-canciones {
+    margin: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: rgb(241, 241, 241);
+    font-size: 30px;
+    font-family: 'Arial', serif;
+}
+
+[type="radio"] {
+    margin: 10px;
+}
+
+[type="checkbox"] {
+    margin: 10px;
+}
+
+body {
+    background-image: url("imagenes/fondoweb.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
