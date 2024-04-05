@@ -1,3 +1,13 @@
+/*body {
+    background-image: url(imagenes/fondoweb.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}*/
+body {
+    background-color: black;
+}
+
 #titulo {
     color: rgba(252, 252, 252, 0.992);
     font-size: 40px;
@@ -5,39 +15,10 @@
     text-align: center;
 }
 
-#logoig {
-    width: 35px;
-    height: 35px;
-    margin-right: 10px;
-}
-
-#logoface {
-    width: 45px;
-    height: 30px;
-    margin-right: 9px;
-}
-
-#logolindk {
-    width: 40px;
-    height: 30px;
-    margin-right: 25px;
-}
-
-#logogmail {
-    width: 43px;
-    margin-right: 8px;
-
-}
-
-.contenedor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h2 {
-    color: rgb(14, 138, 195);
-    font-size: 20px;
+h1 {
+    color: rgb(241, 241, 241);
+    font-size: 30px;
+    font-family: 'Arial', serif;
 }
 
 #presentacion {
@@ -48,6 +29,81 @@ h2 {
     margin: 20px;
     margin-left: 200px;
     margin-right: 200px;
+    padding: 10px 70px 20px;
+}
+
+.contenedor-iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-right: 16px;
+}
+
+#restaurante {
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 250px;
+    /* Ancho del contenedor */
+    height: 300px;
+    /* Altura del contenedor */
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    /* Color y desenfoque */
+    z-index: -1;
+    /* Estilo del borde */
+    padding: 10px;
+    /* Espaciado interno */
+    border-radius: 20px;
+}
+
+#tiendaderopa {
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 250px;
+    /* Ancho del contenedor */
+    height: 300px;
+    /* Altura del contenedor */
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    /* Color y desenfoque */
+    z-index: -1;
+    /* Estilo del borde */
+    padding: 10px;
+    /* Espaciado interno */
+    border-radius: 20px;
+}
+
+
+
+
+#logoig {
+    width: 35px;
+    w
+}
+
+#logofacebook {
+    width: 45px;
+}
+
+#logolindk {
+    width: 33px;
+}
+
+#logogmail {
+    width: 43px;
+    margin-left: 16px;
+}
+
+h2 {
+    color: rgb(14, 138, 195);
+    font-size: 20px;
 }
 
 #autor-heber {
@@ -59,34 +115,6 @@ h2 {
 #mensaje {
     font-size: 30px;
     margin-top: 280px;
-    color: rgb(157, 235, 195);
+    color: #0EE2CC;
     text-align: center;
-    font-family: 'Big Shoulders Inline Text', sans-serif;
-}
-
-#imagen-de-canciones {
-    margin: 15px;
-    width: 300px;
-    border-radius: 15px;
-}
-
-h1 {
-    color: rgb(241, 241, 241);
-    font-size: 30px;
-    font-family: 'Arial', serif;
-}
-
-[type="radio"] {
-    margin: 10px;
-}
-
-[type="checkbox"] {
-    margin: 10px;
-}
-
-body {
-    background-image: url("imagenes/fondoweb.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
 }
